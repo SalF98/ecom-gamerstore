@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "nome": "PC Gamer RTX 4070",
+    "preco": 13999.99,
+    "categoria": "pc-gamer",
+    "descricao": "Desktop gamer equipado com RTX 4070, 32 GB RAM e SSD NVMe de 1TB.",
+    "imagens": [
+      "assets/img/pc1.jpg",
+      "assets/img/pc1-2.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Console PlayStation 5",
+    "preco": 4499.90,
+    "categoria": "console",
+    "descricao": "PlayStation 5 com SSD ultra rápido e controle DualSense.",
+    "imagens": [
+      "assets/img/console1.jpg",
+      "assets/img/console1-2.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Monitor Gamer 27\" 240Hz",
+    "preco": 2499.50,
+    "categoria": "monitor",
+    "descricao": "Monitor IPS 27 polegadas, 240Hz, tempo de resposta 1ms.",
+    "imagens": [
+      "assets/img/monitor1.jpg",
+      "assets/img/monitor1-2.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Teclado Mecânico RGB",
+    "preco": 399.90,
+    "categoria": "periférico",
+    "descricao": "Teclado mecânico com switches red, retroiluminação RGB.",
+    "imagens": [
+      "assets/img/keyboard1.jpg",
+      "assets/img/keyboard1-2.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Mouse Gamer com DPI ajustável",
+    "preco": 249.90,
+    "categoria": "periférico",
+    "descricao": "Mouse óptico com 16000 DPI e botões programáveis.",
+    "imagens": [
+      "assets/img/mouse1.jpg",
+      "assets/img/mouse1-2.jpg"
+    ]
+  }
+]
