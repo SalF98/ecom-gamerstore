@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gamer Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">Gamer<span>Store</span></div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="checkout.html">Checkout</a>
+      </nav>
+      <div class="cart-icon">
+        🛒 <span id="contador-carrinho">0</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Seu destino para hardware e periféricos gamer</h2>
+      <p>Desempenho máximo, equipamentos de qualidade</p>
+    </div>
+  </section>
+
+  <section class="filtros container">
+    <input type="text" id="busca" placeholder="Buscar por nome..." class="input-filtro">
+    <select id="filtro-categoria" class="select-filtro">
+      <option value="">Todas as categorias</option>
+      <option value="pc-gamer">PC Gamer</option>
+      <option value="console">Console</option>
+      <option value="monitor">Monitor</option>
+      <option value="periferico">Periférico</option>
+    </select>
+    <select id="ordenar" class="select-filtro">
+      <option value="">Ordenar por</option>
+      <option value="preco-asc">Preço: menor → maior</option>
+      <option value="preco-desc">Preço: maior → menor</option>
+      <option value="nome-asc">Nome: A → Z</option>
+      <option value="nome-desc">Nome: Z → A</option>
+    </select>
+  </section>
+
+  <main class="container" id="catalogo"></main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 GamerStore. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/carrinho.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
